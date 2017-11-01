@@ -1,0 +1,174 @@
+171023 16:39:13 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- MF_IsClone --------------------
+171023 16:39:13 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::80 01 00 
+171023 16:39:13 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::0x12 = (unknown)
+171023 16:39:15 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 80 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:39:15 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:8001nParamLen:0$
+171023 16:39:15 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:8001 ParamLen:0$
+171023 16:39:15 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::Card did not respond to 0x40 after HALT command. Are you sure it is a UID changeable one?
+171023 16:39:15 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::Error name: Timeout in communication.
+171023 16:39:15 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::Activating the UID backdoor failed.
+171023 16:39:15 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:39:15 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:39:15 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 03 80 01 00 00 24 
+171023 16:39:15 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 03 80 01 00 00 24 
+171023 16:39:15 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:39:15 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- WUPA --------------------
+171023 16:39:15 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 52 00 
+171023 16:39:16 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 52 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:39:17 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:52nParamLen:0$
+171023 16:39:17 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:52 ParamLen:0$
+171023 16:39:17 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::Enter REQA$
+171023 16:39:17 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::ATQA: 04 00status:0$
+171023 16:39:17 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:39:17 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:39:17 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 05 00 52 00 04 00 24 
+171023 16:39:17 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 05 00 52 00 04 00 24 
+171023 16:39:17 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:39:17 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- SEL --------------------
+171023 16:39:17 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 90 00 
+171023 16:39:18 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 90 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:39:18 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:90nParamLen:0$
+171023 16:39:18 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:90 ParamLen:0$
+171023 16:39:18 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::sak:8 uid size:4 uid: 24 46 0C 85$
+171023 16:39:18 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:39:18 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:39:18 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 08 00 90 00 08 24 46 0C 85 24 
+171023 16:39:18 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 08 00 90 00 08 24 46 0C 85 24 
+171023 16:39:18 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:39:18 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- MF_AuthA 0 ffffffffffff --------------------
+171023 16:39:18 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 60 07 00 FF FF FF FF FF FF 
+171023 16:39:20 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 60 07 00 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:39:20 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:60nParamLen:7$
+171023 16:39:20 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:60 ParamLen:7$
+171023 16:39:20 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:39:20 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:39:20 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 03 00 60 00 24 
+171023 16:39:20 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 03 00 60 00 24 
+171023 16:39:20 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:39:20 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- MF_Read 0 --------------------
+171023 16:39:20 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 30 01 00 
+171023 16:39:22 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 30 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:39:22 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:30nParamLen:1$
+171023 16:39:22 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:30 ParamLen:1$
+171023 16:39:22 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:39:22 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:39:22 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 15 00 30 00 24 46 0C 85 EB 08 04 00 62 63 64 65 66 67 68 69 55 59 24 
+171023 16:39:22 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 15 00 30 00 24 46 0C 85 EB 08 04 00 62 63 64 65 66 67 68 69 55 59 24 
+171023 16:39:22 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:39:22 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- MF_Read 1 --------------------
+171023 16:39:22 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 30 01 01 
+171023 16:39:23 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 30 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:39:23 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:30nParamLen:1$
+171023 16:39:23 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:30 ParamLen:1$
+171023 16:39:23 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:39:23 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:39:23 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 15 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 37 49 24 
+171023 16:39:23 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 15 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 37 49 24 
+171023 16:39:23 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:39:23 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- MF_Read 2 --------------------
+171023 16:39:23 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 30 01 02 
+171023 16:39:25 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 30 01 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:39:25 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:30nParamLen:1$
+171023 16:39:25 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:30 ParamLen:1$
+171023 16:39:25 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:39:25 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:39:25 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 15 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 37 49 24 
+171023 16:39:25 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 15 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 37 49 24 
+171023 16:39:25 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:39:25 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- MF_Read 3 --------------------
+171023 16:39:25 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 30 01 03 
+171023 16:39:27 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 30 01 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:39:27 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:30nParamLen:1$
+171023 16:39:27 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:30 ParamLen:1$
+171023 16:39:27 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:39:27 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:39:27 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 15 00 30 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF D4 55 24 
+171023 16:39:27 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 15 00 30 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF D4 55 24 
+171023 16:39:27 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:41:17 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- MF_IsClone --------------------
+171023 16:41:17 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::80 01 00 
+171023 16:41:17 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::x12 = (unknown)
+171023 16:41:18 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 80 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:41:18 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:8001nParamLen:0$
+171023 16:41:18 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:8001 ParamLen:0$
+171023 16:41:19 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::Card did not respond to 0x40 after HALT command. Are you sure it is a UID changeable one?
+171023 16:41:19 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::Error name: Timeout in communication.
+171023 16:41:19 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::Activating the UID backdoor failed.
+171023 16:41:19 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:41:19 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:41:19 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 03 80 01 00 00 24 
+171023 16:41:19 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 03 80 01 00 00 24 
+171023 16:41:19 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:41:19 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- WUPA --------------------
+171023 16:41:19 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 52 00 
+171023 16:41:20 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 52 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:41:20 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:52nParamLen:0$
+171023 16:41:20 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:52 ParamLen:0$
+171023 16:41:20 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::Enter REQA$
+171023 16:41:20 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::ATQA: 04 00status:0$
+171023 16:41:20 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:41:20 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:41:20 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 05 00 52 00 04 00 24 
+171023 16:41:20 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 05 00 52 00 04 00 24 
+171023 16:41:20 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:41:20 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- SEL --------------------
+171023 16:41:20 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 90 00 
+171023 16:41:22 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 90 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:41:22 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:90nParamLen:0$
+171023 16:41:22 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:90 ParamLen:0$
+171023 16:41:22 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::sak:8 uid size:4 uid: 24 46 0C 85$
+171023 16:41:22 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:41:22 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:41:22 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 08 00 90 00 08 24 46 0C 85 24 
+171023 16:41:22 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 08 00 90 00 08 24 46 0C 85 24 
+171023 16:41:22 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:41:22 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- MF_AuthA 0 ffffffffffff --------------------
+171023 16:41:22 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 60 07 00 FF FF FF FF FF FF 
+171023 16:41:24 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 60 07 00 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:41:24 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:60nParamLen:7$
+171023 16:41:24 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:60 ParamLen:7$
+171023 16:41:24 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:41:24 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:41:24 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 03 00 60 00 24 
+171023 16:41:24 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 03 00 60 00 24 
+171023 16:41:24 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:41:24 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- MF_Read 0 --------------------
+171023 16:41:24 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 30 01 00 
+171023 16:41:25 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 30 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:41:25 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:30nParamLen:1$
+171023 16:41:25 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:30 ParamLen:1$
+171023 16:41:25 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:41:25 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:41:25 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 15 00 30 00 24 46 0C 85 EB 08 04 00 62 63 64 65 66 67 68 69 55 59 24 
+171023 16:41:25 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 15 00 30 00 24 46 0C 85 EB 08 04 00 62 63 64 65 66 67 68 69 55 59 24 
+171023 16:41:25 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:41:25 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- MF_Read 1 --------------------
+171023 16:41:25 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 30 01 01 
+171023 16:41:27 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 30 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:41:27 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:30nParamLen:1$
+171023 16:41:27 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:30 ParamLen:1$
+171023 16:41:27 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:41:27 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:41:27 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 15 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 37 49 24 
+171023 16:41:27 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 15 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 37 49 24 
+171023 16:41:27 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:41:27 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- MF_Read 2 --------------------
+171023 16:41:27 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 30 01 02 
+171023 16:41:29 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 30 01 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:41:29 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:30nParamLen:1$
+171023 16:41:29 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:30 ParamLen:1$
+171023 16:41:29 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:41:29 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:41:29 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 15 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 37 49 24 
+171023 16:41:29 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 15 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 37 49 24 
+171023 16:41:29 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
+171023 16:41:29 [DEBUG   ] LibSC_Util.py  :91  :LogTitle            :-------------------- MF_Read 3 --------------------
+171023 16:41:29 [DEBUG   ] LibSC_Serial.py:93  :TransIoCmd          :SEND->::00 30 01 03 
+171023 16:41:30 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::CmdData: 24 4C 69 62 53 43 2E 43 3A 00 30 01 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00$
+171023 16:41:30 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC EX CmdDispatch CmdCode:30nParamLen:1$
+171023 16:41:30 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::LibSC CmdDispatch CmdCode:30 ParamLen:1$
+171023 16:41:30 [DEBUG   ] LibSC_Serial.py:118 :TransIoCmd          :		ComMSG::$
+171023 16:41:30 [DEBUG   ] LibSC_Serial.py:107 :TransIoCmd          :		ComMSG::
+171023 16:41:30 [DEBUG   ] LibSC_Serial.py:108 :TransIoCmd          :RECV<-::00 15 00 30 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF D4 55 24 
+171023 16:41:30 [DEBUG   ] LibSC_Serial.py:109 :TransIoCmd          :rspData:00 15 00 30 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF D4 55 24 
+171023 16:41:30 [DEBUG   ] LibSC_Serial.py:110 :TransIoCmd          :Global data cache:
