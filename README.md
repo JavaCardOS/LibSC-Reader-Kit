@@ -73,16 +73,16 @@ pypi
 &nbsp;&nbsp;&nbsp;If device driver is not installed properly, just as the following figure shows.  
 &nbsp;&nbsp;&nbsp;![Unknown_Device](./img/0050_Unknow_Device.png)  
 
-&nbsp;&nbsp;&nbsp;Please select "Update Driver Software".
+&nbsp;&nbsp;&nbsp;Please select "Update Driver Software".  
 &nbsp;&nbsp;&nbsp;![Update_Drv](./img/0100_Update_Drv.png)  
 
 &nbsp;&nbsp;&nbsp;In the new pop-up dialog box, select "Browse my computer for driver software".  
 &nbsp;&nbsp;&nbsp;![Sel_Drv_Path](./img/0200_Sel_Drv_Path.png)  
 
-&nbsp;&nbsp;&nbsp;The entered path should be the driver decompression path.
+&nbsp;&nbsp;&nbsp;The entered path should be the driver decompression path.  
 &nbsp;&nbsp;&nbsp;![Spec_Path](./img/0300_Spec_Path.png)  
 
-&nbsp;&nbsp;&nbsp;After the installation is completed, the below dialog box will pop-up. 
+&nbsp;&nbsp;&nbsp;After the installation is completed, the below dialog box will pop-up.  
 &nbsp;&nbsp;&nbsp;![Inst_Finish](./img/0400_Inst_Finish.png)  
 
 &nbsp;&nbsp;&nbsp;If the driver works normally, you will see this device in the device manager, as shown below.  
