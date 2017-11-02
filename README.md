@@ -131,7 +131,7 @@ Enter the command below in the console to install pyserial, then you can communi
 ### How to place the card  
 &nbsp;&nbsp;&nbsp;The shape of antenna board(MFRC522) is a little small,so when the card antenna is bigger than it, the placement angle has an effect on the stability of the connection. Please refert o the pictures shown below to properly place the card.  
   
-&nbsp;&nbsp;&nbsp;Mifare Card
+&nbsp;&nbsp;&nbsp;Mifare Card  
 &nbsp;&nbsp;&nbsp;![mifare](./img/mifare.png)  
 
 &nbsp;&nbsp;&nbsp;CPU Card  
@@ -139,9 +139,9 @@ Enter the command below in the console to install pyserial, then you can communi
 
 ### Test Card
   &nbsp;&nbsp;&nbsp;Click arduino menu *Tools->Port "COMXX" * to check COM port information.  
-  &nbsp;&nbsp;&nbsp;![COM port](./img/port_num.png) 
+  &nbsp;&nbsp;&nbsp;![COM port](./img/port_num.png)  
 #### Console mode verification
-  &nbsp;&nbsp;&nbsp;Open the console, switch to the directory src/client and execute the below command 
+  &nbsp;&nbsp;&nbsp;Open the console, switch to the directory src/client and execute the below command  
   &nbsp;&nbsp;&nbsp;`LibSC_Client.py com12`
   &nbsp;&nbsp;&nbsp;"com12" is the port number assigned by the system.The port number will be different on different computers.  
   &nbsp;&nbsp;&nbsp;If the card placed on the card reader module is MIFARE card, you will get the logs similar as the following.  
