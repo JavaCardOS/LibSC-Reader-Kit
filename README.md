@@ -156,10 +156,10 @@ Enter the command below in the console to install pyserial, then you can communi
   Please install [wxPython3.0-win64-3.0.2.0-py27.exe](https://drive.google.com/drive/folders/0BzXJhN5FPrE5QWU5UURVWHdqajA) in advance before using the program. And also remember to select the installation version according to your own system.
 ##### Start program
 Put the card,which is to be copied, to the effective position of 
-MFRC522 antenna. Start program and execute "LibSC_Tools.py" in the console.Then enter COM port and MIFARE sector password. 
-![settinginfo](./img/dlg_setting.png)  
-After selecting the corresponding port, click "OK" to jump to program main interface. In the new dialogbox, you can see the current card type according to the item "Card Type" and it will also shows whether the card is cloneable.  
-![main_ui](./img/main_ui.png)  
+MFRC522 antenna. Start program and execute "LibSC_Tools.py" in the console.Then enter COM port and MIFARE sector password.   
+![settinginfo](./img/dlg_setting.png)   
+After selecting the corresponding port, click "OK" to jump to program main interface. In the new dialogbox, you can see the current card type according to the item "Card Type" and it will also shows whether the card is cloneable.    
+![main_ui](./img/main_ui.png)    
 Currently we only provide  *Read Card* function and *CopyUID* function. The *Write Card* function is not available. You can modify the source code (./src) according to your own requirement. Note: The *Write Card* function can cause the card irremediable defect. Please look through  the content of chapter Password and Permission in MIFARE manual. 
 ##### Copy UID  
 Click "CopyUID" to copy the UID of the current connected card. Then the following dialogbox will display and the program will be back to the state that no cards are connected.At this time, you can change the card that supports CLONE function.   
