@@ -35,7 +35,7 @@ pypi
 [sourceforge](https://sourceforge.net/projects/LibSC-Reader-Kit/?ws=sourceforge&prj=LibSC_Reader_Kit)
 
 ## Quick Start 
-1.Install arduino [development environment](https://drive.google.com/open?id=0BzXJhN5FPrE5d2R6NlVTZEJPaXM).  
+1.Install arduino [development environment](https://drive.google.com/open?id=0BzXJhN5FPrE5U0Z5bnRDZ2xBQzQ).  
 2.Install serial device driver .
   &nbsp;&nbsp;&nbsp;Please download the cooresponding driver according to your platform and requirement.  
   &nbsp;&nbsp;&nbsp;[windows](https://drive.google.com/open?id=0BzXJhN5FPrE5aE1JWTJKRk5aQlU)  
