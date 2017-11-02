@@ -9,7 +9,7 @@ The entire suite of hardware is carefully chosen, tested and integrated by JavaC
 
 ## List of Components
 
-- arduino core board
+- arduino UNO R3 board
 - MFRC522 antenna board
 - Dupont wire * 7
 - USB cable * 1
