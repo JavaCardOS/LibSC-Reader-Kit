@@ -46,7 +46,7 @@ pypi
 6.Download firmware code to arduino hardware.   
 7.Install pyserial .
 &nbsp;&nbsp;&nbsp;`pip install pyserial`  
-8.Run LibSC Reader client [code](./src\Client) to confirm whether the smart card reader can work.
+8.Run LibSC Reader [client code](./src/Client) to confirm whether the smart card reader can work.
 
 
 ## Install Arduino Development Environment  
