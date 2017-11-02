@@ -11,7 +11,7 @@ The entire suite of hardware is carefully chosen, tested and integrated by JavaC
 
 - arduino UNO R3 board
 - MFRC522 antenna board
-- 1 X 8 Pin Header Strip（for MFRC522 board）
+- 1 * 8 Pin Header Strip（for MFRC522 board）
 - Dupont wire * 7
 - USB cable * 1
 - MIFARE 1k card(Please note that this is not the cloneable card, if you need MIFARE clone 1k card, please click [here](https://www.javacardos.com/store/mifare-classic-1k-keyfob-blue.php?ws=github&prj=LibSC_Reader_Kit) )
