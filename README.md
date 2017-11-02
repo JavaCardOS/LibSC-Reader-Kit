@@ -42,8 +42,7 @@ pypi
   &nbsp;&nbsp;&nbsp;[mac](https://drive.google.com/file/d/0BzXJhN5FPrE5WExpRmpuNC0zb28/view?usp=sharing?)  
 3.Please refer to [this picture](./img/Arduino-Uno-r3-with-RFID-RC522.png) to connect each component.   
 4.Install [MFRC522 library](https://drive.google.com/file/d/0BzXJhN5FPrE5Zkd4V3pySVN4X0k/view) .   
-5.Add LibSC Reader implementation [firmware code](./src/anne1989@
-Firmware) to MFRC522 library installation directory.    
+5.Add LibSC Reader implementation [firmware code](./src/Firmware) to MFRC522 library installation directory.    
 6.Download firmware code to arduino hardware.   
 7.Install pyserial .
 &nbsp;&nbsp;&nbsp;`pip install pyserial`  
