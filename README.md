@@ -31,11 +31,6 @@ LibSC Reader Kit pro includes a Mifare Clone 1K and a CPU card. You can send APD
 
 The content in the dotted box is the software code implementation on PC, such as all the scripts and LibSC API implementation.All these codes will be executed on PC.There are also two arrows,which indicate *PORT A* and *PORT B*. The *PORT A* is connected with USB cable.Although we just see an USB cable ,essentially,the USB device is virtual as a serial device to access to the computer.The *PORT B* indicates the dupont wires, which connnect arduino core board and MFRC522.The firmware code is downloaded to core board via USB, so you will see that the source code of this kit is divided to two directories, that is [Client](./src/Client)(PC-side code) and [Firmware](./src/Firmware)( firmware code that will be downloaded to arduino core board).
 
-## Download Source Code  
-[Github](https://github.com/JavaCardOS/LibSC-Reader-Kit?ws=github&prj=LibSC_Reader_Kit)  
-pypi  
-[sourceforge](https://sourceforge.net/projects/LibSC-Reader-Kit/?ws=sourceforge&prj=LibSC_Reader_Kit)
-
 ## Quick Start 
 1.Install arduino [development environment](https://drive.google.com/open?id=0BzXJhN5FPrE5U0Z5bnRDZ2xBQzQ).  
 2.Install serial device driver .
