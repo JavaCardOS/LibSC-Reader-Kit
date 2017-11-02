@@ -34,14 +34,14 @@ pypi
 [sourceforge](https://sourceforge.net/projects/LibSC-Reader-Kit/?ws=sourceforge&prj=LibSC_Reader_Kit)
 
 ## Quick Start 
-1.Install arduino [development environment](https://drive.google.com/file/d/0BzXJhN5FPrE5S0JFZnFWXzVyelk/view?usp=sharing?ws=github&prj=LibSC_Reader_Kit).  
+1.Install arduino [development environment](https://drive.google.com/file/d/0BzXJhN5FPrE5S0JFZnFWXzVyelk/view?usp=sharing).  
 2.Install serial device driver .
   &nbsp;&nbsp;&nbsp;Please download the cooresponding driver according to your platform and requirement.  
-  &nbsp;&nbsp;&nbsp;[windows](https://drive.google.com/open?id=0BzXJhN5FPrE5UVpzU2J6eXhrOTA?ws=github&prj=LibSC_Reader_Kit)  
-  &nbsp;&nbsp;&nbsp;[linux](https://drive.google.com/file/d/0BzXJhN5FPrE5MDlkTUhXRTFzZ2s/view?usp=sharing?ws=github&prj=LibSC_Reader_Kit)  
-  &nbsp;&nbsp;&nbsp;[mac](https://drive.google.com/file/d/0BzXJhN5FPrE5WExpRmpuNC0zb28/view?usp=sharing?ws=github&prj=LibSC_Reader_Kit)  
+  &nbsp;&nbsp;&nbsp;[windows](https://drive.google.com/open?id=0BzXJhN5FPrE5UVpzU2J6eXhrOTA)  
+  &nbsp;&nbsp;&nbsp;[linux](https://drive.google.com/file/d/0BzXJhN5FPrE5MDlkTUhXRTFzZ2s/view?usp=sharing)  
+  &nbsp;&nbsp;&nbsp;[mac](https://drive.google.com/file/d/0BzXJhN5FPrE5WExpRmpuNC0zb28/view?usp=sharing?)  
 3.Please refer to [this picture](./img/Arduino-Uno-r3-with-RFID-RC522.png) to connect each component.   
-4.Install [MFRC522 library](https://drive.google.com/file/d/0BzXJhN5FPrE5Zkd4V3pySVN4X0k/view?usp=sharing?ws=github&prj=LibSC_Reader_Kit) .   
+4.Install [MFRC522 library](https://drive.google.com/file/d/0BzXJhN5FPrE5Zkd4V3pySVN4X0k/view) .   
 5.Add LibSC Reader implementation [firmware code](./src\Firmware) to MFRC522 library installation directory.    
 6.Download firmware code to arduino hardware.   
 7.Install pyserial .
@@ -63,7 +63,7 @@ pypi
 &nbsp;&nbsp;&nbsp;If using ch340 series chip as the USB virtual serial chip of the current arduino board sold in our online store, it also needs a additional driver installation process. Then you are able to communicate with arduino core board via USB cable.  
 
 ### Driver Installation Steps
-&nbsp;&nbsp;&nbsp;1.Download [CH341SER.zip](https://drive.google.com/file/d/0BzXJhN5FPrE5UmhUN1d1a1o5VDg/view?usp=sharing?ws=github&prj=LibSC_Reader_Kit),   and decompress.  
+&nbsp;&nbsp;&nbsp;1.Download [CH341SER.zip](https://drive.google.com/file/d/0BzXJhN5FPrE5UmhUN1d1a1o5VDg/view?usp=sharing),   and decompress.  
 &nbsp;&nbsp;&nbsp;2.Insert the device.  
 &nbsp;&nbsp;&nbsp;3.Specify where the driver is located.
 
@@ -152,7 +152,7 @@ Enter the command below in the console to install pyserial, then you can communi
   LibSC_tools is a GUI program, which is developed based on wxPython.You can implement some basic operations on MIFARE card or MIFARE CLONE card via this program.
  
 
-  Please install [wxPython3.0-win64-3.0.2.0-py27.exe](https://drive.google.com/drive/folders/0BzXJhN5FPrE5QWU5UURVWHdqajA?ws=github&prj=LibSC_Reader_Kit) in advance before using the program. And also remember to select the installation version according to your own system.
+  Please install [wxPython3.0-win64-3.0.2.0-py27.exe](https://drive.google.com/drive/folders/0BzXJhN5FPrE5QWU5UURVWHdqajA) in advance before using the program. And also remember to select the installation version according to your own system.
 ##### Start program
 Put the card,which is to be copied, to the effective position of 
 MFRC522 antenna. Start program and execute "LibSC_Tools.py" in the console.Then enter COM port and MIFARE sector password. 
