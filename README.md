@@ -171,7 +171,7 @@ If the target card support CLONE function, the pop-up dialog box will  let you c
 
 
 # Discussion  
-  &nbsp;&nbsp;&nbsp;If you have any problem on LibSC Reader Module Development Kit, please feel free to post them in our forum. [JavaCardOS DISCUSSION](https://javacardos.com/javacardforum/viewforum.php?f=44?ws=github&prj=LibSC_Reader_Kit)
+  &nbsp;&nbsp;&nbsp;If you have any problem on LibSC Reader Module Development Kit, please feel free to post them in our forum. [JavaCardOS DISCUSSION](https://javacardos.com/javacardforum/viewtopic.php?f=19&t=1352?ws=github&prj=LibSC_Reader_Kit)
 
 # TODO
     Verify the below platforms:
