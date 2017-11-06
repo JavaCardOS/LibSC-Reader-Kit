@@ -37,7 +37,7 @@ The content in the dotted box is the software code implementation on PC, such as
   &nbsp;&nbsp;&nbsp;Please download the cooresponding driver according to your platform and requirement.  
   &nbsp;&nbsp;&nbsp;[windows](https://drive.google.com/open?id=0BzXJhN5FPrE5aE1JWTJKRk5aQlU)  
   &nbsp;&nbsp;&nbsp;[linux](https://drive.google.com/file/d/0BzXJhN5FPrE5MDlkTUhXRTFzZ2s/view?usp=sharing)  
-  &nbsp;&nbsp;&nbsp;[mac](https://drive.google.com/file/d/0BzXJhN5FPrE5WExpRmpuNC0zb28/view?usp=sharing?)  
+  &nbsp;&nbsp;&nbsp;[mac](https://drive.google.com/open?id=0BzXJhN5FPrE5Y3lKR25lZGs1S00)  
 3.Please refer to [this picture](./img/Arduino-Uno-r3-with-RFID-RC522.png) to connect each component.   
 4.Install [MFRC522 library](https://drive.google.com/file/d/0BzXJhN5FPrE5Zkd4V3pySVN4X0k/view) .   
 5.Add LibSC Reader implementation [firmware code](./src/Firmware) to MFRC522 library installation directory.    
