@@ -15,7 +15,7 @@ The entire suite of hardware is carefully chosen, tested and integrated by JavaC
 - 1 * 8 Pin Header Strip（bending socket for MFRC522 board）
 - Dupont wire * 7
 - USB cable * 1
-- MIFARE 1k card(Please note that this is not the cloneable card, if you need MIFARE clone 1k card, please click [here](https://www.javacardos.com/store/mifare-classic-1k-keyfob-blue.php?ws=github&prj=LibSC_Reader_Kit) )
+- MIFARE 1k card(Please note that this is not the cloneable card, if you need MIFARE clone 1k card, please click [here](https://www.javacardos.com/store/mifare-clone-1k.php?ws=github&prj=LibSC_Reader_Kit) )
 
 
 ![Equipment List](./img/kits.png)
