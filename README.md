@@ -61,7 +61,7 @@ The content in the dotted box is the software code implementation on PC, such as
 &nbsp;&nbsp;&nbsp;If using ch340 series chip as the USB virtual serial chip of the current arduino board sold in our online store, it also needs a additional driver installation process. Then you are able to communicate with arduino core board via USB cable.  
 
 ### Driver Installation Steps
-&nbsp;&nbsp;&nbsp;1.Download [CH341SER.zip](https://drive.google.com/file/d/0BzXJhN5FPrE5UmhUN1d1a1o5VDg/view?usp=sharing),   and decompress.  
+&nbsp;&nbsp;&nbsp;1.Download [CH341SER.zip](https://www.javacardos.com/javacardforum/posting.php?mode=edit&f=19&p=4348),   and decompress.  
 &nbsp;&nbsp;&nbsp;2.Insert the device.  
 &nbsp;&nbsp;&nbsp;3.Specify where the driver is located.
 
