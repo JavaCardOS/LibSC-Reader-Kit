@@ -35,9 +35,9 @@ The content in the dotted box is the software code implementation on PC, such as
 1.Install arduino [development environment](https://www.javacardos.com/javacardforum/viewtopic.php?f=19&t=1352&p=4348#p4348).  
 2.Install serial device driver .
   &nbsp;&nbsp;&nbsp;Please download the cooresponding driver according to your platform and requirement.  
-  &nbsp;&nbsp;&nbsp;[windows](https://www.javacardos.com/javacardforum/posting.php?mode=edit&f=19&p=4348)  
-  &nbsp;&nbsp;&nbsp;[linux](https://www.javacardos.com/javacardforum/posting.php?mode=edit&f=19&p=4348)  
-  &nbsp;&nbsp;&nbsp;[mac](https://www.javacardos.com/javacardforum/posting.php?mode=edit&f=19&p=4348)  
+  &nbsp;&nbsp;&nbsp;[windows](https://www.javacardos.com/javacardforum/viewtopic.php?f=19&t=1352&p=4437#p4437)  
+  &nbsp;&nbsp;&nbsp;[linux](https://www.javacardos.com/javacardforum/viewtopic.php?f=19&t=1352&p=4437#p4437)  
+  &nbsp;&nbsp;&nbsp;[mac](https://www.javacardos.com/javacardforum/viewtopic.php?f=19&t=1352&p=4437#p4437)  
 3.Please refer to [this picture](./img/Arduino-Uno-r3-with-RFID-RC522.png) to connect each component.   
 4.Install [MFRC522 library](https://drive.google.com/file/d/0BzXJhN5FPrE5Zkd4V3pySVN4X0k/view) .   
 5.Add LibSC Reader implementation [firmware code](./src/Firmware) to MFRC522 library installation directory.    
