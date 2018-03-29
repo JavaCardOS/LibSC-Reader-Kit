@@ -24,6 +24,7 @@ The entire suite of hardware is carefully chosen, tested and integrated by JavaC
  
 LibSC Reader Kit pro includes a Mifare Clone 1K and a CPU card. You can send APDU commands via LibSC Reader.If you need enhanced version of the suite, please click [here](https://www.javacardos.com/store/libsc-reader-kit-pro.php?ws=github&prj=LibSC_Reader_Kit)
 
+The arduino mega2560 and arduino nano has been successfully validated and can be used.
 
 ## Architecture
 
@@ -175,6 +176,4 @@ If the target card support CLONE function, the pop-up dialog box will  let you c
 
 # TODO
     Verify the below platforms:
-        arduino mega256
         arduino mini
-        arduino micro
